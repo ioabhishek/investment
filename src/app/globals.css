@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +24,46 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+body {
+  background-color: #1a1520;
+  color: #ffffff
 }
+
+::-webkit-scrollbar{height:2px; width: 5px; border-radius:50px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:#5d5962; border-radius: 100px; }
+::-webkit-scrollbar-thumb:hover{background:#76727a  }
+
+
+/** CSS DARK THEME PRIMARY COLORS */ 
+/* 
+'cp-100':  '#01c36d',
+'cp-200':  '#44ca7d',
+'cp-300':  '#63d28d',
+'cp-400':  '#7dd99d',
+'cp-500':  '#95dfad',
+'cp-600':  '#abe6bd'   */
+
+/** CSS DARK THEME SURFACE COLORS */ 
+/* 
+'color-surface-100':  '#1a1520', 
+'color-surface-200':  '#2f2a35', 
+'color-surface-300':  '#46414b', 
+'color-surface-400':  '#5d5962', 
+'color-surface-500':  '#76727a', 
+'color-surface-600':  '#908d93'  */
+
+/** CSS DARK THEME MIXED SURFACE COLORS */  
+/* 
+--color-surface-mixed-100:  #202428; 
+--color-surface-mixed-200:  #35383c; 
+--color-surface-mixed-300:  #4b4e52; 
+--color-surface-mixed-400:  #626568; 
+--color-surface-mixed-500:  #7a7d80; 
+--color-surface-mixed-600:  #939598;   */
+
+/** EXAMPLES */ 
+          
+        
